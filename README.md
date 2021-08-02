@@ -4,8 +4,8 @@
 
 |Table vocab||||
 |-------|------|------|------|
-|1|(自增约束主键)|||
-|2|(词本体)|||
+|1|(自增约束主键)|id||
+|2|(词本体)|vocab||
 |3|名词|noun|n|
 |4|代词|pronoun|pron|
 |5|形容词|adjective|adj|
@@ -16,8 +16,11 @@
 |10|助动词|auxiliary verb|aux|
 |11|数词|numeral|num|
 |12|冠词|article|art|
-|13|介词|preposition||
-|14|连词|||
-|15|感叹词|||
-|16|(是否星标)|||
-|17| (最后搜索时间)|||
+|13|介词|preposition|prep|
+|14|连词|conjunction|conj|
+|15|感叹词|interjection|int|
+|16|缩写|abbreviation|abbr|
+|17|(是否星标)|star||
+|18| (最后搜索时间)|last||
+|19| TEXT |interpretation||
+

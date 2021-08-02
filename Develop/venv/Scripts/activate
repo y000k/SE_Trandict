@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Admin\Documents\GitHub\SE_Trandict\venv"
+VIRTUAL_ENV="C:\Users\a\Documents\GitHub\SE_Trandict\Develop\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
