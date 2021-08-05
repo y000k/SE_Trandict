@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon_Trandict_300-281.png</file>
+    <file>icon_Trandict.png</file>
+  </qresource>
+</RCC>

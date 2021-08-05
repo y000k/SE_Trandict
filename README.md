@@ -1,6 +1,6 @@
 # SE_Trandict
 
-词库来自于[english-words](https://github.com/dwyl/english-words), 过滤了包含符号和数字的条目。
+词库来自于[english-words](https://github.com/dwyl/english-words)和[dict](https://github.com/kajweb/dict), 过滤了包含符号和数字的条目。
 
 |Table vocab||||
 |-------|------|------|------|
