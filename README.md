@@ -1,5 +1,15 @@
 # SE_Trandict
 
+## 这是什么
+
+这是一个学习性质的项目。一方面练习Qt界面和数据库操作，一方面起到帮我背单词的作用。
+
+1. 界面预览
+
+![20210807205230.png](https://i.postimg.cc/05FkNCbW/20210807205230.png)
+
+
+
 词库来自于[english-words](https://github.com/dwyl/english-words)和[dict](https://github.com/kajweb/dict), 过滤了包含符号和数字的条目。
 
 |Table vocab||||

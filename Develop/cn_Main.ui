@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>934</width>
-    <height>635</height>
+    <width>897</width>
+    <height>571</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,7 +21,7 @@
    <bool>true</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-colour:#008f8a;</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -32,7 +32,7 @@
         <item>
          <widget class="QLineEdit" name="qqqVocIn">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -43,11 +43,20 @@
             <height>0</height>
            </size>
           </property>
+          <property name="maximumSize">
+           <size>
+            <width>360</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <family>Adobe 黑体 Std R</family>
             <pointsize>13</pointsize>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(255, 255, 255, 20)</string>
           </property>
           <property name="text">
            <string/>
@@ -56,6 +65,24 @@
         </item>
         <item>
          <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>35</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>35</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string>&lt;查词</string>
           </property>
@@ -66,7 +93,23 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_5">
         <item>
-         <widget class="QTextBrowser" name="qqqVocList"/>
+         <widget class="QTextBrowser" name="qqqVocList">
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>400</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(227, 227, 227, 5)</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -78,7 +121,7 @@
            <bool>true</bool>
           </property>
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -109,7 +152,7 @@
         <item>
          <widget class="QPushButton" name="qqqButtonGra">
           <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
@@ -126,17 +169,23 @@
          </widget>
         </item>
         <item>
-         <spacer name="qqqSp2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+         <widget class="QLabel" name="label_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
           </property>
-          <property name="sizeHint" stdset="0">
+          <property name="maximumSize">
            <size>
-            <width>40</width>
-            <height>20</height>
+            <width>345</width>
+            <height>16777215</height>
            </size>
           </property>
-         </spacer>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -178,6 +227,9 @@
             <family>Adobe Caslon Pro Bold</family>
             <pointsize>20</pointsize>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color:rgb(227, 227, 227, 5)</string>
           </property>
           <property name="html">
            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -256,9 +308,15 @@ p, li { white-space: pre-wrap; }
       </item>
       <item>
        <widget class="QTextBrowser" name="qqqVocCharacter">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
         <property name="minimumSize">
          <size>
-          <width>300</width>
+          <width>350</width>
           <height>0</height>
          </size>
         </property>
@@ -268,29 +326,38 @@ p, li { white-space: pre-wrap; }
           <height>175</height>
          </size>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(227, 227, 227, 5)</string>
+        </property>
        </widget>
       </item>
       <item>
        <widget class="QTextBrowser" name="qqqVocWY">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
         <property name="maximumSize">
          <size>
           <width>16777215</width>
           <height>125</height>
          </size>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(227, 227, 227, 5)</string>
+        </property>
        </widget>
       </item>
       <item>
-       <widget class="QTextBrowser" name="qqqVocNote"/>
+       <widget class="QTextBrowser" name="qqqVocNote">
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(227, 227, 227, 5)</string>
+        </property>
+       </widget>
       </item>
      </layout>
-    </item>
-    <item>
-     <widget class="Line" name="line_2">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-     </widget>
     </item>
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -304,14 +371,33 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="maximumSize">
          <size>
-          <width>16777215</width>
+          <width>300</width>
           <height>150</height>
          </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(227, 227, 227, 5)</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QTextBrowser" name="qqqDate"/>
+       <widget class="QTextBrowser" name="qqqDate">
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>300</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(227, 227, 227, 5)</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
@@ -322,7 +408,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>934</width>
+     <width>897</width>
      <height>23</height>
     </rect>
    </property>
@@ -334,21 +420,21 @@ p, li { white-space: pre-wrap; }
      <property name="title">
       <string>导入(&amp;I)</string>
      </property>
-     <addaction name="qqqF_I_DCB"/>
-     <addaction name="qqqF_I_CCJL"/>
-     <addaction name="qqqF_I_BJ"/>
+     <addaction name="qqqF_I_W"/>
+     <addaction name="qqqF_I_H"/>
+     <addaction name="qqqF_I_N"/>
      <addaction name="separator"/>
-     <addaction name="qqqF_I_SJK"/>
+     <addaction name="qqqF_I_D"/>
     </widget>
     <widget class="QMenu" name="menu_E_3">
      <property name="title">
       <string>导出(&amp;E)</string>
      </property>
-     <addaction name="qqqF_E_DCB"/>
-     <addaction name="qqqF_E_CCJL"/>
-     <addaction name="qqqF_E_BJ"/>
+     <addaction name="qqqF_E_W"/>
+     <addaction name="qqqF_E_H"/>
+     <addaction name="qqqF_E_N"/>
      <addaction name="separator"/>
-     <addaction name="qqqF_E_SJK"/>
+     <addaction name="qqqF_E_D"/>
     </widget>
     <addaction name="menu_I"/>
     <addaction name="menu_E_3"/>
@@ -363,8 +449,8 @@ p, li { white-space: pre-wrap; }
      <property name="title">
       <string>语言(&amp;L)</string>
      </property>
-     <addaction name="qqqH_L_JTZW"/>
-     <addaction name="qqqH_L_English"/>
+     <addaction name="qqqH_L_C"/>
+     <addaction name="qqqH_L_E"/>
     </widget>
     <addaction name="menu_L"/>
     <addaction name="qqqH_A"/>
@@ -373,8 +459,8 @@ p, li { white-space: pre-wrap; }
     <property name="title">
      <string>查看(&amp;V)</string>
     </property>
-    <addaction name="action_H"/>
-    <addaction name="action_G"/>
+    <addaction name="qqqV_H"/>
+    <addaction name="qqqV_G"/>
    </widget>
    <widget class="QMenu" name="menu_E">
     <property name="title">
@@ -382,9 +468,36 @@ p, li { white-space: pre-wrap; }
     </property>
     <addaction name="qqqE_A"/>
    </widget>
+   <widget class="QMenu" name="menu_W">
+    <property name="title">
+     <string>窗口(&amp;W)</string>
+    </property>
+    <widget class="QMenu" name="menu_L_2">
+     <property name="title">
+      <string>语言(&amp;L)</string>
+     </property>
+     <addaction name="qqqW_L_C"/>
+     <addaction name="qqqW_L_E"/>
+    </widget>
+    <widget class="QMenu" name="menu_T">
+     <property name="title">
+      <string>全部主题(&amp;T)</string>
+     </property>
+     <addaction name="qqqW_T_O"/>
+     <addaction name="qqqW_T_D"/>
+     <addaction name="separator"/>
+     <addaction name="qqqW_T_C"/>
+    </widget>
+    <addaction name="qqqW_O"/>
+    <addaction name="qqqW_D"/>
+    <addaction name="menu_T"/>
+    <addaction name="separator"/>
+    <addaction name="menu_L_2"/>
+   </widget>
    <addaction name="menu_F"/>
    <addaction name="menu_E"/>
    <addaction name="menu_V"/>
+   <addaction name="menu_W"/>
    <addaction name="menu_H"/>
   </widget>
   <action name="qqqF_Q">
@@ -402,44 +515,44 @@ p, li { white-space: pre-wrap; }
     <string>清除笔记</string>
    </property>
   </action>
-  <action name="qqqF_I_DCB">
+  <action name="qqqF_I_W">
    <property name="text">
-    <string>单词表</string>
+    <string>单词表(&amp;W)</string>
    </property>
   </action>
-  <action name="qqqF_I_CCJL">
+  <action name="qqqF_I_H">
    <property name="text">
-    <string>查词记录</string>
+    <string>查词记录(&amp;H)</string>
    </property>
   </action>
-  <action name="qqqF_I_BJ">
+  <action name="qqqF_I_N">
    <property name="text">
-    <string>笔记</string>
+    <string>笔记(&amp;N)</string>
    </property>
   </action>
-  <action name="qqqF_I_SJK">
+  <action name="qqqF_I_D">
    <property name="text">
-    <string>数据库</string>
+    <string>数据库(&amp;D)</string>
    </property>
   </action>
-  <action name="qqqF_E_DCB">
+  <action name="qqqF_E_W">
    <property name="text">
-    <string>单词表</string>
+    <string>单词表(&amp;W)</string>
    </property>
   </action>
-  <action name="qqqF_E_CCJL">
+  <action name="qqqF_E_H">
    <property name="text">
-    <string>查词记录</string>
+    <string>查词记录(&amp;H)</string>
    </property>
   </action>
-  <action name="qqqF_E_BJ">
+  <action name="qqqF_E_N">
    <property name="text">
-    <string>笔记</string>
+    <string>笔记(&amp;N)</string>
    </property>
   </action>
-  <action name="qqqF_E_SJK">
+  <action name="qqqF_E_D">
    <property name="text">
-    <string>数据库</string>
+    <string>数据库(&amp;D)</string>
    </property>
   </action>
   <action name="qqqH_A">
@@ -447,14 +560,14 @@ p, li { white-space: pre-wrap; }
     <string>关于(&amp;A)</string>
    </property>
   </action>
-  <action name="qqqH_L_JTZW">
+  <action name="qqqH_L_C">
    <property name="text">
-    <string>简体中文</string>
+    <string>简体中文(&amp;C)</string>
    </property>
   </action>
-  <action name="qqqH_L_English">
+  <action name="qqqH_L_E">
    <property name="text">
-    <string>English</string>
+    <string>English(&amp;E)</string>
    </property>
   </action>
   <action name="qqqE_A">
@@ -462,14 +575,49 @@ p, li { white-space: pre-wrap; }
     <string>词性/词意(&amp;A)</string>
    </property>
   </action>
-  <action name="action_H">
+  <action name="qqqV_H">
    <property name="text">
     <string>历史(&amp;H)</string>
    </property>
   </action>
-  <action name="action_G">
+  <action name="qqqV_G">
    <property name="text">
     <string>统计图(&amp;G)</string>
+   </property>
+  </action>
+  <action name="qqqW_L_C">
+   <property name="text">
+    <string>简体中文(&amp;C)</string>
+   </property>
+  </action>
+  <action name="qqqW_L_E">
+   <property name="text">
+    <string>English(&amp;E)</string>
+   </property>
+  </action>
+  <action name="qqqW_T_O">
+   <property name="text">
+    <string>初始(&amp;O)</string>
+   </property>
+  </action>
+  <action name="qqqW_T_D">
+   <property name="text">
+    <string>深色(&amp;D)</string>
+   </property>
+  </action>
+  <action name="qqqW_T_C">
+   <property name="text">
+    <string>自定义(&amp;C)</string>
+   </property>
+  </action>
+  <action name="qqqW_O">
+   <property name="text">
+    <string>初始主题(&amp;O)</string>
+   </property>
+  </action>
+  <action name="qqqW_D">
+   <property name="text">
+    <string>深色主题(&amp;D)</string>
    </property>
   </action>
  </widget>

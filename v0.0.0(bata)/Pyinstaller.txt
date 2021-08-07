@@ -1,0 +1,1 @@
+pyinstaller Main.py --noconsole --hidden-import PySide2.QtXml --icon=icon.ico --name=Trandict
